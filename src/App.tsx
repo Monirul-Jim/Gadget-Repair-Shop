@@ -1,11 +1,10 @@
 import "./App.css";
-import { Button } from "./components/ui/button";
+import MainLayout from "./components/ui/layouts/MainLayout";
 
 function App() {
   return (
     <>
-      <h1>This is new component</h1>
-      <Button>Something</Button>
+      <MainLayout />
     </>
   );
 }
