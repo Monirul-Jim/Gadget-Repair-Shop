@@ -20,6 +20,7 @@ export const useGetServices = () => {
       }));
       return services;
     },
+    // gcTime:1000
   });
   return servicesData;
 };
